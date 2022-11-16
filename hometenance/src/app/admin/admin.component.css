@@ -1,0 +1,30 @@
+h1{
+    font-size: 110px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    margin-top: 60px;
+    /* height: 20px; */
+}
+.a6{
+    color: white;
+    margin-left: 265px;
+    margin-bottom: -80px;
+    font-size: 20px;
+}
+.a2{
+    font-size: 70px;
+    color: white;
+    margin-top: -90px;
+    margin-left: 130px;
+    font-family:serif;
+}
+i{
+    color: white;
+    margin-left:-522px;
+    font-size: 70px;
+    color: white;
+}
+div{
+   margin-left: 400px;
+   margin-top: 200px;
+}

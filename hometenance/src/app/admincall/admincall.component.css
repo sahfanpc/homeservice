@@ -1,0 +1,20 @@
+p{
+    color: white;
+}
+.a{
+    display: flex;
+justify-content: center;
+text-align: center;
+}
+.b{
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    opacity: .9;
+    margin-top: 150px;
+    border-radius: 9px;
+
+}
+h1{
+    color: orange;
+}

@@ -1,0 +1,21 @@
+<div> 
+<form *ngFor="let item of array">
+    <img src="https://media.istockphoto.com/photos/headshot-of-cheerful-handsome-man-with-trendy-haircut-and-eyeglasses-picture-id1171169127?b=1&k=20&m=1171169127&s=170667a&w=0&h=EhnDHqf3YPp71FK23x_ZyFPhMLKCk_ZyNchiPE93ESw=">
+    <br>
+ <label for="">NAME : {{item.name}}</label><br>
+ <label for="">CONDACT NO : {{item.condact}}</label><br>
+ <label for="">ADDRESS 1 : {{item.address}}</label><br>
+ <label for="">ADDRESS 2 : {{item.address2}}</label><br>
+ <label for="">CITY : {{item.city}}</label><br>
+ <label for="">DISCRIPTION : {{item.add}}</label><br>
+ <label for="">PASSWORD : {{item.password}}</label><br>
+ <label for="">PROFFESION : {{item.proffetion}}</label><br>
+ <button type="button" (click)="button()">Terms And Condition</button>
+</form>
+</div>
+<div *ngIf="testbutton" class="a4">
+    <p>if you would like to any changes in this profile .
+        then you condact with our team members. no:<strong class="a5">9633966265</strong>
+    
+    </p>
+    </div>

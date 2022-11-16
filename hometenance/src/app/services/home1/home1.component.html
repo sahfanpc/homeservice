@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+<h1>HOMTENANCE<i class="bi bi-house-fill a1"></i><p class="az">homtenance</p></h1>
+
+<p id="a1">City</p><p id="a2">Who's Required</p><p id="a3">Action</p>
+<select id="a4"type="text"placeholder="--Select City--">
+        <option value="">--Select City--</option>
+<option value="Delhi">Delhi</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Kolkata">Kolkata</option>
+<option value="Chennai">Chennai</option>
+<option value="Pune">Pune</option>
+<option value="Jaipur">Jaipur</option>
+<option value="Bhopal">Bhopal</option>
+<option value="Kozhikode">Kozhikode</option>
+<option value="Kannur">Kannur</option>
+<option value="Kochi">Kochi</option>
+<option value="Bangaluru">Bangaluru</option>
+</select>
+<select size="1"  id="a5"  [(ngModel)]='sahfan' >
+    <option value="">--Select Profession--</option>
+<option value="worker">worker</option>
+<option value="painter">painter</option>
+<option value="plumber">plumber</option>
+<option value="cleaner">house cleaner</option>
+<option value="designer">designer</option>
+</select>
+
+ <button (click)="button()" id="a6">Search</button>
+
+<table *ngIf="testbutton">
+    <thead >
+        <tr><th>PHOTO</th>
+            <th>NAME</th>
+            <th>ADDRESS</th>
+            <th>PROFFETION</th>
+            <th>ACTION</th>
+        </tr>
+    </thead>
+<tbody *ngFor="let item of array">
+    <tr><td><img src="https://media.istockphoto.com/photos/headshot-of-cheerful-handsome-man-with-trendy-haircut-and-eyeglasses-picture-id1171169127?b=1&k=20&m=1171169127&s=170667a&w=0&h=EhnDHqf3YPp71FK23x_ZyFPhMLKCk_ZyNchiPE93ESw="></td>
+        <td>{{item.name}}</td>
+        <td>{{item.address}}</td>
+        <td>{{item.proffetion}}</td>
+        <td><button type="button"(click)="button1(item)" class="btn btn-success">Book</button></td>
+        
+        
+    </tr>
+</tbody>
+</table>

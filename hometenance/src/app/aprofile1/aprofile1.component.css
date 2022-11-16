@@ -1,0 +1,48 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin-top: 150px;
+    width: 250px;
+    height: 380px;
+    background-color:orange;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px white;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    
+    
+}
+img{
+    margin-top: 10px;
+    width: 140px;
+    height: 130px;
+    /* margin-left: 67px; */
+    border-radius: 100px;
+}
+
+label{
+    margin-bottom: px;
+}
+.a4{
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin-left: 585px;
+    margin-top: 5px;
+    background-color: black;
+    opacity: .8;
+    border-radius: 5px;
+}
+.a5{
+    color:  rgb(13, 143, 194);
+}
+button{
+    color: rgb(13, 143, 194);
+    border: none;
+    background-color: orange;
+    margin-top: 10px;
+}

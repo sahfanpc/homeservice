@@ -1,0 +1,35 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 270px;
+    height: 480px;
+    background-color: white;
+    opacity: .8;
+    text-align: center;
+    border-radius: 9px;
+    margin-top: 90px;
+    
+}
+h1{
+    color: orange;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+img{
+    width: 200px;
+    height: 170px;
+    margin-bottom: -20px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 15px;
+   
+}
